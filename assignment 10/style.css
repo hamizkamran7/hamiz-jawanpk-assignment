@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-div{
+    display: flex;
+    margin-top: 30px;
+}
+.search{
+    border: 2px solid black;
+    width: 300px;
+    height: 30px;
+    display: flex;
+    margin-left: 10px;
+border-radius: 10px;
+}
+#searchbox{
+    border: none;
+    
+}
+.fa-solid {
+    font-size:15px;
+    padding-top: 8px;
+    padding-left: 20px;
+    padding-right: 5px;
+}
+.cart{
+    background-color: red;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    color: white;
+    width: 250px;
+    border-radius: 20px;
+    margin-left: 850px;
+   
+}
+#cart-logo{
+    padding-bottom: 4px;
+    padding-right: 5px;
+}
+.select{
+
+    height: 30px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+
+}
+/* box2 */
+.main-div2{
+
+    margin-top: 20px;
+   
+}
+
+#s2{
+    height: 30px;
+    width: 350px;
+    border: 2px solid black;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+/* maincontent */
+.top-table{
+    border: 2px solid black;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    border: none;
+    margin-top: 30px;
+}
+/* footerwala */
+.top-table2{
+    border: 2px solid black;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    border: none;
+    margin-top: 10px;
+}
+th{
+    
+    padding-left: 30px;
+    padding-right: 50px;
+    color: white;
+}
+/* mainbody */
+
+/* item2 */
+#img{
+    height: 50px;
+}
+#tr-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#tr-body td{
+   margin-left: 45px;
+   margin-right: 33px;
+}
+#tr-body{
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+/* item5 */
+.main-div3{
+    display: flex;
+   text-align: center;
+   align-items: center;
+}
+.div1{
+    background-color: red;
+    height: 25px;
+    width: 40px;
+    padding-top: 5px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color: white;
+}
+.div2{
+    padding: 5px;
+    border: 1px solid grey;
+   
+}
+.div3{
+    background-color: red;
+    height: 25px;
+    width: 40px;
+    padding-top: 5px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: white;
+}
+/* item 6 */
+.cart-div2{
+    height: 40px;
+    width: 40px;
+    background-color: red;
+    text-align: center;
+    border-radius: 80px;
+}
+
+#cart-logo2{
+    text-align: center;
+    padding: 12px;
+    color: white;
+}
+/* iteam7 */
+.view-div{
+    height: 40px;
+    width: 40px;
+    background-color: red;
+    text-align: center;
+    border-radius: 80px;
+}
+#eye{
+    text-align: center;
+    padding: 11px;
+    color: white;
+ 
+}
+/* item9 */
+#star{
+    color: red;
+    padding: 0;
+}
+/* item10 */
+.main-div4{
+    display: flex;
+}
+.heart{
+    height: 40px;
+    width: 40px;
+    background-color: red;
+    text-align: center;
+    border-radius: 80px;
+}
+#heart{
+    text-align: center;
+    padding: 13px;
+    color: white; 
+}
+.compare{
+    height: 40px;
+    width: 40px;
+    background-color: red;
+    text-align: center;
+    border-radius: 80px;
+    margin-left: 6px;
+}
+#arrow{
+    text-align: center;
+    padding: 12px;
+    color: white; 
+}
+button{
+height: 50px;
+width: 100px;
+color: rgb(255, 255, 255);
+font-size: 15px;
+border-radius: 5px;
+border: none;
+background: red;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}

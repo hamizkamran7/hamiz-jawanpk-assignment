@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table layout</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- header -->
+    <!-- box1 -->
+    <div class="main-div">
+        <div class="search">
+            <i class="fa-solid fa-magnifying-glass" id="searchlogo"></i>
+            <input type="text" id="searchbox" placeholder="search keyboard">
+        </div>
+        <div class="cart"> <i class="fa-solid fa-cart-shopping" id="cart-logo"></i>Add to cart products 0 items
+        </div>
+
+        <div class="select">Select All</div>
+    </div>
+    <!-- box2 -->
+    <div class="main-div2">
+        <input type="text" placeholder="Category" id="s2">
+        <input type="text" placeholder="Stock" id="s2">
+        <input type="text" placeholder="Price" id="s2">
+    </div>
+    <!-- main content -->
+ 
+    <table class="top-table">
+        <thead>
+            <tr>
+                <th>Check</th>
+                <th>Thumbnail</th>
+                <th>Product Title</th>
+                <th>Category</th>
+                <th>Stock</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Action</th>
+                <th>Quick View</th>
+                <th> sku</th>
+                <th>Rating</th>
+                <th>Wishlist & Compare</th>
+            </tr>
+
+        </thead>
+    </table>
+
+    <!-- row 1 -->
+    <table >
+        <tbody>
+            <tr id="tr-body">
+                <!-- item1 -->
+                <td> <input type="checkbox" id="checkbox"></td>
+                <!-- item2 -->
+                <td><img src="img/boot1.png" id="img"></td>
+                <!-- item3 -->
+                <td>Boots <br>Bu1234 </td>
+                <td>Boots</td>
+                 <!-- item4 -->
+                <td>Stock in</td>  
+                <td>$ 170 </td>
+                <!-- item5 -->
+                <td>
+                    <div class="main-div3">
+                        <div class="div1">-</div>
+                        <div class="div2">0</div>
+                        <div class="div3">+</div>
+                    </div>
+                </td>
+                <!-- item6 -->
+                <td>
+                    <div class="cart-div2">
+                        <i class="fa-solid fa-cart-shopping" id="cart-logo2"></i>
+                    </div>
+                </td>
+                <!-- item7 -->
+                <td>
+                    <div class="view-div">
+                        <i class="fa-solid fa-eye" id="eye"></i>
+                    </div>
+                </td>
+                <!-- item8 -->
+                 <td>112</td>
+                 <!-- item9 -->
+                  <td>
+                    5
+                    <i class="fa-solid fa-star" id="star"></i>
+                  </td>
+                  <!-- item10 -->
+                  <td>
+                    <div class="main-div4">
+                        <div class="heart"><i class="fa-solid fa-heart" id="heart"></i></div>
+                    <div class="compare"><i class="fa-solid fa-arrow-right-arrow-left" id="arrow"></i></div>
+                    </div>
+                    
+                  </td>
+            </tr>
+
+        </tbody>
+    </table>
+
+<!-- row2 -->
+<table >
+    <tbody>
+        <tr id="tr-body">
+            <!-- item1 -->
+            <td> <input type="checkbox" id="checkbox"></td>
+            <!-- item2 -->
+            <td><img src="img/boot2.png" id="img"></td>
+            <!-- item3 -->
+            <td>Boots <br>Bu1234 </td>
+            <td>Boots</td>
+             <!-- item4 -->
+            <td>Stock in</td>  
+            <td>$ 170 </td>
+            <!-- item5 -->
+            <td>
+                <div class="main-div3">
+                    <div class="div1">-</div>
+                    <div class="div2">0</div>
+                    <div class="div3">+</div>
+                </div>
+            </td>
+            <!-- item6 -->
+            <td>
+                <div class="cart-div2">
+                    <i class="fa-solid fa-cart-shopping" id="cart-logo2"></i>
+                </div>
+            </td>
+            <!-- item7 -->
+            <td>
+                <div class="view-div">
+                    <i class="fa-solid fa-eye" id="eye"></i>
+                </div>
+            </td>
+            <!-- item8 -->
+             <td>112</td>
+             <!-- item9 -->
+              <td>
+                5
+                <i class="fa-solid fa-star" id="star"></i>
+              </td>
+              <!-- item10 -->
+              <td>
+                <div class="main-div4">
+                    <div class="heart"><i class="fa-solid fa-heart" id="heart"></i></div>
+                <div class="compare"><i class="fa-solid fa-arrow-right-arrow-left" id="arrow"></i></div>
+                </div>
+                
+              </td>
+        </tr>
+
+    </tbody>
+</table>
+<!-- row 3 -->
+<table >
+    <tbody>
+        <tr id="tr-body">
+            <!-- item1 -->
+            <td> <input type="checkbox" id="checkbox"></td>
+            <!-- item2 -->
+            <td><img src="img/boot3.png" id="img"></td>
+            <!-- item3 -->
+            <td>Boots <br>Bu1234 </td>
+            <td>Boots</td>
+             <!-- item4 -->
+            <td>Stock in</td>  
+            <td>$ 170 </td>
+            <!-- item5 -->
+            <td>
+                <div class="main-div3">
+                    <div class="div1">-</div>
+                    <div class="div2">0</div>
+                    <div class="div3">+</div>
+                </div>
+            </td>
+            <!-- item6 -->
+            <td>
+                <div class="cart-div2">
+                    <i class="fa-solid fa-cart-shopping" id="cart-logo2"></i>
+                </div>
+            </td>
+            <!-- item7 -->
+            <td>
+                <div class="view-div">
+                    <i class="fa-solid fa-eye" id="eye"></i>
+                </div>
+            </td>
+            <!-- item8 -->
+             <td>112</td>
+             <!-- item9 -->
+              <td>
+                5
+                <i class="fa-solid fa-star" id="star"></i>
+              </td>
+              <!-- item10 -->
+              <td>
+                <div class="main-div4">
+                    <div class="heart"><i class="fa-solid fa-heart" id="heart"></i></div>
+                <div class="compare"><i class="fa-solid fa-arrow-right-arrow-left" id="arrow"></i></div>
+                </div>
+                
+              </td>
+        </tr>
+
+    </tbody>
+</table>
+<!-- row4 -->
+<table >
+    <tbody>
+        <tr id="tr-body">
+            <!-- item1 -->
+            <td> <input type="checkbox" id="checkbox"></td>
+            <!-- item2 -->
+            <td><img src="img/boot4.png" id="img"></td>
+            <!-- item3 -->
+            <td>Boots <br>Bu1234 </td>
+            <td>Boots</td>
+             <!-- item4 -->
+            <td>Stock in</td>  
+            <td>$ 170 </td>
+            <!-- item5 -->
+            <td>
+                <div class="main-div3">
+                    <div class="div1">-</div>
+                    <div class="div2">0</div>
+                    <div class="div3">+</div>
+                </div>
+            </td>
+            <!-- item6 -->
+            <td>
+                <div class="cart-div2">
+                    <i class="fa-solid fa-cart-shopping" id="cart-logo2"></i>
+                </div>
+            </td>
+            <!-- item7 -->
+            <td>
+                <div class="view-div">
+                    <i class="fa-solid fa-eye" id="eye"></i>
+                </div>
+            </td>
+            <!-- item8 -->
+             <td>112</td>
+             <!-- item9 -->
+              <td>
+                5
+                <i class="fa-solid fa-star" id="star"></i>
+              </td>
+              <!-- item10 -->
+              <td>
+                <div class="main-div4">
+                    <div class="heart"><i class="fa-solid fa-heart" id="heart"></i></div>
+                <div class="compare"><i class="fa-solid fa-arrow-right-arrow-left" id="arrow"></i></div>
+                </div>
+                
+              </td>
+        </tr>
+
+    </tbody>
+</table>
+<!-- footer  -->
+
+<table class="top-table2">
+    <footer>
+        <tr>
+            <th>Check</th>
+            <th>Thumbnail</th>
+            <th>Product Title</th>
+            <th>Category</th>
+            <th>Stock</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Action</th>
+            <th>Quick View</th>
+            <th> sku</th>
+            <th>Rating</th>
+            <th>Wishlist & Compare</th>
+        </tr>
+
+    </footer>
+</table>
+<div class="button">
+    <button>learn more</button>
+</div>
+</body>
+
+</html>
